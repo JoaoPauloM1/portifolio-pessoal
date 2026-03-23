@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Tech | João Paulo Maciel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;500;700&family=Plus+Jakarta+Sans:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="tech-accent">&lt;</span>João Paulo<span class="tech-accent">/&gt;</span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="hero-section">
+            <div class="glass-card">
+                <span class="tag">System.out.println("Olá, Mundo!");</span>
+                <h1>Desenvolvedor de Software em formação.</h1>
+                <p>Sou o João Paulo, apaixonado por transformar café em código funcional. Atualmente estudando os fundamentos da web e explorando novas tecnologias.</p>
+                <div class="btn-group">
+                    <a href="#contato" class="btn-primary">Falar Comigo</a>
+                    <a href="#portfolio" class="btn-secondary">Ver Projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="tech-section">
+            <h2 class="section-title">Minha Jornada</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Finalizado</span>
+                        <h3>Inglês</h3>
+                        <p>Instituto VIP de Inglês LAIVEC - Unaí MG</p>
+                        <p>Nível Avançado voltado para leitura de documentações e comunicação na área de TI.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3>Engenharia de Software</h3>
+                        <p>Centro Universitário Uninter. Foco em lógica de programação, engenharia de software e arquitetura web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="tech-section">
+            <h2 class="section-title">Portfólio & Laboratório</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">👾</span>
+                        <a href="https://gamemaster-whab.onrender.com" target="_blank" class="project-link">🔗</a>
+                    </div>
+                    <h3>Game Master</h3>
+                    <p>Um arcade de jogos clássicos feito em python!</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">💚</span>
+                        <a href="https://healthflow-lwfh.onrender.com" target="_blank" class="project-link">🔗</a>
+                    </div>
+                    <h3>Health Flow</h3>
+                    <p>Um site com calculadoras focado em saúde!</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🔈</span>
+                        <a href="https://rythmix-mu.vercel.app" target="_blank" class="project-link">🔗</a>
+                    </div>
+                    <h3>RythMix</h3>
+                    <p>Web site de músicas!</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">🍔</span>
+                        <a href="https://foodflow-xi.vercel.app" target="_blank" class="project-link">🔗</a>
+                    </div>
+                    <h3>FoodFlow</h3>
+                    <p>Um cardápio online de vários restaurantes!</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-icon">⚔</span>
+                        <a href="https://rpg-delta.vercel.app" target="_blank" class="project-link">🔗</a>
+                    </div>
+                    <h3>RPG</h3>
+                    <p>Um RPG online!</p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="tech-section">
+            <h2 class="section-title">Diga um "Hello World"</h2>
+            
+            <div class="contact-container">
+                <form id="formContato" class="glass-form">
+                    <div class="input-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" autocomplete="off" placeholder="Ex: Linus Torvalds">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="email">E-mail corporativo</label>
+                        <input type="email" id="email" autocomplete="off" placeholder="Ex: dev@exemplo.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" rows="5" placeholder="Descreva seu projeto ou proposta..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary full-width">Transmitir Mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 João Paulo. Desenvolvido sem frameworks, movido a código puro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
