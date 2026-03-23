@@ -38,6 +38,8 @@ Para cumprir as diretrizes acadêmicas, o projeto foi desenvolvido **do zero, se
 
 ## 🛠️ Teste o projeto
 
-<div>
-  <a href="https://rpg-delta.vercel.app" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" target="_blank"></a>
-</div>
+<p align="center">
+  <a href="https://joaopaulom1.github.io/portifolio-pessoal/" target="_blank">
+    <img src="https://img.shields.io/badge/Acessar%20Meu%20Portfólio-00d2ff?style=for-the-badge&logo=rocket&logoColor=white" alt="Botão do Portfólio">
+  </a>
+</p>
